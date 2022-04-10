@@ -11,7 +11,9 @@ class _AddNotePageState extends State<AddNotePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-
+      appBar: AppBar(
+        title: Text("Add new Note"),
+      ),
     );
   }
 }
