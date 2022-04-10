@@ -14,6 +14,12 @@ class _AddNotePageState extends State<AddNotePage> {
       appBar: AppBar(
         title: Text("Add new Note"),
       ),
+      body: Column(
+        children: [
+          Text("Title"),
+          TextField()
+        ],
+      ),
     );
   }
 }
